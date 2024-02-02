@@ -1,0 +1,114 @@
+/* resets */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div.geral{
+    max-width: 1440px;
+}
+.nav-container ul{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    list-style: none;
+    line-height: 105px;
+}
+
+/* left text layout */
+.txtLeft {
+    
+    margin-left: 120px;
+    margin-top: 178px;
+    
+}
+.txtLeft a{
+
+    text-decoration: none;
+    color:black;
+    
+    line-height: 30px;
+    width: 120px;
+}
+
+.txtLeft a:hover{
+    
+    border-radius: 10px;
+    background: #E76F51;
+    color: white;
+   
+}
+
+.links{
+    width: 30%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 10em;
+
+}
+
+
+/* div dos icones do lado esquerdo (left icons) */
+
+.icons{
+    font-size: 2em;
+    display: flex;
+    width: 30%;
+    margin-top: 56px;
+    justify-content: space-around;
+    cursor: pointer;
+    
+    
+}
+
+.icons i:hover{
+    border-radius: 10px;
+    color: green;
+}
+.n2{
+    
+    
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.space {
+    margin: auto 52px;
+}
+
+.contentRight{
+    margin-left: 60%;
+    position: absolute;
+    top: 26%;
+}
+
+/* img */
+.img{
+    position: relative;
+    
+}
+
+.contentRight img{
+    width: 65%;
+}
+
+
+
+/* setas da img */
+.arrow{
+    color: rgba(109, 109, 109, 0.65);
+    position: absolute;
+    bottom: 3%;
+    right: 50%;
+    cursor: pointer;
+    width: 25%;
+   
+    
+}
+
+/* arrows*/
+
+.arrow i:hover{
+    color:white;
+}
+

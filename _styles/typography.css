@@ -1,0 +1,38 @@
+/* resets */
+*{
+    font-family: "Libre Franklin";
+}
+
+.nav-container{
+    font-size: 20px;
+   
+}
+
+
+.logo{
+    font-family: 'Rancho', cursive;
+    font-size: 96px;
+}
+
+/* txt left tipografia */
+.txtLeft a{
+    text-align: center;
+}
+.txtLeft h2{
+    font-size: 4em;
+    color:rgba(104, 87, 87, 0.89);
+}
+/* destaque do texto */
+span{
+    color: green;
+}
+/* icons */
+.item p{
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.arrow i{
+    font-size: 3.5em;
+    
+}
