@@ -6,7 +6,10 @@
 
 div.geral{
     max-width: 1440px;
+    margin: 0 auto;
 }
+
+/* HEADER - NAV */
 .nav-container ul{
     display: flex;
     justify-content: space-around;
@@ -14,6 +17,7 @@ div.geral{
     list-style: none;
     line-height: 105px;
 }
+/* Section - Banner */
 
 /* left text layout */
 .txtLeft {
@@ -21,27 +25,31 @@ div.geral{
     margin-left: 120px;
     margin-top: 178px;
     
+    
 }
 .txtLeft a{
 
     text-decoration: none;
     color:black;
     
+     
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
     line-height: 30px;
     width: 120px;
 }
 
 .txtLeft a:hover{
-    
-    border-radius: 10px;
+   
     background: #E76F51;
     color: white;
    
-}
+}   
 
 .links{
     width: 30%;
-    margin-top: 100px;
+    margin-top: 130px;
     display: flex;
     justify-content: space-around;
     line-height: 10em;
@@ -52,10 +60,10 @@ div.geral{
 /* div dos icones do lado esquerdo (left icons) */
 
 .icons{
-    font-size: 2em;
+    font-size: 2.2em;
     display: flex;
     width: 30%;
-    margin-top: 56px;
+    margin-top: 136px;
     justify-content: space-around;
     cursor: pointer;
     
@@ -69,46 +77,142 @@ div.geral{
 .n2{
     
     
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 .space {
-    margin: auto 52px;
+    margin: auto 56px;
 }
 
+/* conteudo do lado direito (img e arrows) */
 .contentRight{
-    margin-left: 60%;
+    margin-left: 50%;
+    max-width: 50%;
     position: absolute;
-    top: 26%;
+    top: 15%;
+    right: 10%;
+    
 }
 
 /* img */
-.img{
-    position: relative;
+
+.contentRight img{
+    width: 70%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     
 }
 
-.contentRight img{
-    width: 65%;
-}
 
+/* arrows*/
 
-
-/* setas da img */
+/* arrows da img */
 .arrow{
-    color: rgba(109, 109, 109, 0.65);
+    color: rgba(90, 180, 15, 0.65);
     position: absolute;
     bottom: 3%;
-    right: 50%;
+    right: 45%;
     cursor: pointer;
     width: 25%;
    
-    
 }
-
-/* arrows*/
 
 .arrow i:hover{
     color:white;
 }
 
+/* SECTION - ESPECIALIDADES */
+
+section.especialidades{
+    background: #EFEFEF;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/* sobremesa */
+div.sobremesa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 190px;
+    padding-top: 65px;
+    
+}
+/* textos do lado esquerdo da tela */
+div.sobremesaLeft{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.sobremesaLeft h3{
+    display: start;
+    
+    padding-bottom: 32px;
+}
+
+/* img do lado direito */
+.sobremesaRight{
+ 
+    max-width: 30%;
+    margin: 0 auto;
+    
+
+}
+.sobremesaRight img{
+    box-shadow: 2px 2px 2px 6px rgba(0, 0, 0, 0.2);
+    width: 90%;
+
+}
+
+/* button */
+.sobremesaLeft a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 14px;
+    margin-left: -16px;
+}
+.sobremesaLeft a:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+    background-color: #2A9D8F;
+    border-radius: 15px;
+    
+    color: #EFEFEF;
+}
+
+/* ALMOÇO - SOPA ESQUISITA */
+
+.dinner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 190px;
+    padding-top: 100px;
+}
+.dinnerLeft{
+    margin: 0 auto;
+    max-width: 30%;
+}
+.dinnerLeft img{
+    box-shadow: 2px 2px 2px 6px rgba(0, 0, 0, 0.2);
+    width: 90%;
+}
+
+.dinnerRight{
+    display: start;
+    width: 30%;
+    margin: 0 auto;
+}
+.dinnerRight a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 14px;
+    margin-left: -16px;
+}
+.dinnerRight a:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+    background-color: #2A9D8F;
+    border-radius: 15px;
+    
+    color: #EFEFEF;
+}
