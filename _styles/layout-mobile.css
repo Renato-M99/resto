@@ -1,0 +1,15 @@
+.nav-container ul li{
+   display: none;
+
+}
+.logo{
+   display: start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 1%;
+}
+
+.banner div{
+   width: 70%;
+  
+}
